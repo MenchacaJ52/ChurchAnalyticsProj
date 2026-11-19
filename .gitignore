@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.sqlite3
+backend/staticfiles/
+backend/media/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Node (web, mobile, shared)
+node_modules/
+dist/
+.expo/
+*.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
